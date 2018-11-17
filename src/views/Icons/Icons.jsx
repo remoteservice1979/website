@@ -11,26 +11,13 @@ class Icons extends React.Component {
           <Col md={12}>
             <Card className="demo-icons">
               <CardHeader>
-                <CardTitle>100 Awesome Nucleo Icons</CardTitle>
-                <p className="card-category">
-                  Handcrafted by our friends from{" "}
-                  <a href="https://nucleoapp.com/?ref=1712">NucleoApp</a>
-                </p>
+                <CardTitle>Remote Service Supports</CardTitle>
+                
               </CardHeader>
               <CardBody className="all-icons">
                 <div id="icons-wrapper">
                   <section>
-                    <ul>
-                      {icons.map((prop, key) => {
-                        return (
-                          <li key={key}>
-                            <i className={"nc-icon " + prop.name} />
-                            <p>{prop.name}</p>
-                            <em>{prop.content}</em>
-                          </li>
-                        );
-                      })}
-                    </ul>
+                    Remoteservice supports
                   </section>
                 </div>
               </CardBody>
